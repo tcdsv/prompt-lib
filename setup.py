@@ -12,7 +12,9 @@ setup(name='prompt-lib',
           'pandas',
           'tqdm==4.49.0',
           'wandb==0.13.2',
-          'PyYAML'
+          'PyYAML',
+          'anthropic',
+          'rouge_score'
       ],
       license='MIT',
       long_description=open('README.md').read(),
